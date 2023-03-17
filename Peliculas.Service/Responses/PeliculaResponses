@@ -1,0 +1,10 @@
+using Pelicula.BLL.Core
+
+namespace Pelicula.BL.Responses
+{
+
+    public class  : ServiceResult
+    {
+        public int peliculaId {get;set;}
+    }
+}
